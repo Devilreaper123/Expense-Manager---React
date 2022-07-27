@@ -5,10 +5,9 @@ function App() {
       <h2>Lets Get started</h2>
       <ExpenseItem> </ExpenseItem>
       <ExpenseItem> </ExpenseItem>
-      <ExpenseItem> </ExpenseItem>
-      <ExpenseItem> </ExpenseItem>
       
     </div>
   );
 }
 export default App;
+``
