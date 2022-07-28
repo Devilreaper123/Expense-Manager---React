@@ -1,4 +1,3 @@
-import ExpenseItem from "./components/ExpenseItem";
 import Expenses from "./components/Expenses";
 
 function App() {
@@ -31,9 +30,8 @@ function App() {
   return (
     <div>
       <h2>Lets Get Started</h2>
-      <Expenses items={expenses}/>
+      <Expenses items={expenses} />
     </div>
-    
   );
 }
 export default App;

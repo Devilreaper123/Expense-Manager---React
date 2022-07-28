@@ -1,5 +1,4 @@
 import "./ExpenseDate.css";
-
 function ExpenseDate(props) {
   const month = props.date.toLocaleString("en-US", { month: "long" });
   const year = props.date.toLocaleString("en-US", { year: "numeric" });
@@ -12,5 +11,4 @@ function ExpenseDate(props) {
     </div>
   );
 }
-
 export default ExpenseDate;
